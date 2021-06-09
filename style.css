@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+#marqueeStyle{
+    background: #0099ff;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    text-align: center;
+}
+.mainContact{
+    text-align: center;
+}
+#campus_life h2{
+    text-align: left;
+}
+.travelMain{
+    text-align: left;
+    float: left;
+    padding: 5;
+    width: 33.33%;
+    border: 1px solid #c7c7c7;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.travelMain hr{
+    width: 100%;
+}
+.travelMain img{
+    width: 100%;
+    height: 300px;
+}
+.travelmain h5{
+    margin-left: 20px;
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+#achievement{
+    padding-bottom: 10px;
+}
+.news_li{
+    margin-top: 13px;
+    list-style: none;
+    border-radius: 10px;
+}
+.news_li h4{
+    border-bottom: 1px solid white;
+}
+.news_li img{
+    border-radius: 30px;
+}
